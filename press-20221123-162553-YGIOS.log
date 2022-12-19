@@ -1,0 +1,39 @@
+Scenario - 
+Logfile written - 11/23/2022 16:26:35
+
+Trial	Event Type	Code	stimulus_time(str)	response_time(str)	reaction_time(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Sound	4;1639;1635	4	1639	1635	42	0	2781			0		hit	2
+1	Response	1				16400	16358	1
+2	Sound	5641;6281;640	5641	6281	640	56411	0	2			0		hit	4
+2	Response	1				62810	6399	1
+3	Sound	11282;11934;652	11282	11934	652	112825	0	4			0		hit	6
+3	Response	1				119342	6518	1
+4	Sound	17935;18617;682	17935	18617	682	179354	0	2			0		hit	8
+4	Response	1				186180	6825	1
+5	Sound	25619;26549;930	25619	26549	930	256194	0	2			0		hit	10
+5	Response	1				265500	9306	1
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Sound	4;1639;1635	hit	1	16358	2782	42	2781			0
+Sound	5641;6281;640	hit	1	6399	2	56411	2			0
+Sound	11282;11934;652	hit	1	6518	4	112825	4			0
+Sound	17935;18617;682	hit	1	6825	2	179354	2			0
+Sound	25619;26549;930	hit	1	9306	2	256194	2			0
+
+
+{
+   "app": "Presentation Version 23.0 Build 10.27.21",
+   "device": "Dell Inc. Latitude 5480",
+   "experiment": "{289FE125-031E-47AE-80D4-15F581514663}",
+   "os": "Windows 7 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "press.sce",
+   "subject": "",
+   "timestamp": "2022/11/23 21:25:53 GMT"
+}

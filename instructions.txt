@@ -1,0 +1,18 @@
+
+######################### Running Instructions ################################################
+1.) Generating the random number txt file
+- Run generateRandom.py
+- The file with 120 random number (between 4 and 7) will be generated in the same directory
+
+2.) Before running the presentation script
+- Put the random number txt file in the experiment folder (a random number text file is already given in the experiment directory)
+- In line 52, change the file path to that of the random number text file
+- Change the value of noRandom and no_press_calls (in lines 44 and 45) to 10
+    - This will be 120 in the actual experiment
+    - But we are changing it so that the experiment doesnt take too long to running
+- Run the experiment (preferably from the "Main" tab)
+
+3.) Some further notes
+- G is the active response button
+    - Experiment will proceed to next trial when G is pressed after hearing "Press"
+###############################################################################################
